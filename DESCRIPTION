@@ -1,0 +1,19 @@
+Package: rccpy
+Title: A package to automatically install the CloudComPy python library and execute point
+    cloud processing pipelines easily.
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alexander", "Taeuber", , "alexander.taeuber@idiv.de", role = c("aut", "cre"))
+Description: This package simplifies the installation of the CloudComPy python library
+    (https://github.com/CloudCompare/CloudComPy) to one simple command. Python scripts
+    requiring CloudComPy can then easily be run using the source_ccpy() function. The
+    package includes a python module called cloudcompype, which wraps some commands of
+    CloudComPy commonly used in forest-science point cloud analysis in a single class
+    for the easy creation of data analysis pipelines. The class can be used in the
+    scripts sourced with source_ccpy() without any import, as this is done within the
+    package.
+License: GPL (>= 3)
+Encoding: UTF-8
+Imports: archive, cli, reticulate
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
